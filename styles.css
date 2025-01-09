@@ -1,0 +1,174 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #1E2A38;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+header nav a:hover {
+    color: #f79c42;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Projects Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.project-grid .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-grid .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #f79c42;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #ff7e36;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #1E2A38;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f79c42;
+}
+
+/* Social Links */
+.social-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links ul li a {
+    font-size: 1.5em;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.social-links ul li a:hover {
+    color: #f79c42;
+}
+
+/* Footer */
+footer {
+    background: #1E2A38;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
